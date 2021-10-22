@@ -18,6 +18,13 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+	
+		<dependency>
+    		<groupId>com.twilio.sdk</groupId>
+    		<artifactId>twilio</artifactId>
+    		<version>7.20.0</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -28,6 +35,7 @@
 		</dependency>
 
 		<dependency>
+		
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
