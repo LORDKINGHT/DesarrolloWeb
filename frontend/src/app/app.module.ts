@@ -13,6 +13,27 @@ import { PrivateTasksComponent } from './components/private-tasks/private-tasks.
 import {AuthGuard  } from '../app/auth.guard';
 import { TokenInterceptorService } from './services/token-interceptor.service';
 
+/**
+
+ * @fileoverview  Modulos
+
+ * @version       1.0
+
+ * @author        Andres Garcia <afgarcia2@poligran.edu.co>
+ * @author        Julio Parra <juparram@poligran.edu.co>              
+
+ * @copyright     Contenido Libre
+
+ *
+
+ * History
+
+ * v1.0 – Se agregan los modulos que se van a usar en el desarrollo del programa.
+
+
+*/
+
+
 @NgModule({
   declarations: [
     AppComponent,
